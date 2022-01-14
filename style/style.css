@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-image: url("Landing page4.jpg");
+  background-size: cover;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo h1 span {
+  color: red;
+}
+
+.logo1 h4 {
+  color: white;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo1 h4 span {
+  font-size: 26px;
+}
+
+.head-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sec-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: violet;
+  color: black;
+}
+
+.button2 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button2:hover {
+  background-color: violet;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
